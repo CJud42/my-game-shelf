@@ -1,8 +1,19 @@
-const games = [
- {id:"boss-monster",name:"Boss Monster",players:[2,4],time:[20,30],difficulty:"Light",tags:["Card Game","Dungeon Building","Take That","Fantasy","Competitive"],cover:"assets/boss-monster.jpeg",video:"https://www.youtube.com/embed/d9FR-Z3ExWs",rules:"Build a side-scrolling dungeon to lure Heroes into your rooms. Each Room has Treasure that attracts particular Heroes and Damage that helps defeat them. During the adventure phase, Heroes move through your dungeon and either die, giving you Souls, or survive and give you Wounds. Reach 10 Souls to win, but reaching 5 Wounds eliminates you. The game is built around balancing an attractive dungeon with enough damage to survive the Heroes you lure."},
- {id:"air-land-sea-critters",name:"Air, Land & Sea: Critters at War",players:[2,2],time:[15,30],difficulty:"Medium",tags:["Card Game","Two Player","Tactical","Bluffing","Competitive"],cover:"assets/air-land-sea-critters.jpeg",video:"https://www.youtube.com/embed/3g6mY2u1VqU",rules:"Battle for control of three theaters: Air, Land, and Sea. Each player begins a battle with six cards and does not draw additional cards during that battle. Cards can be played face-up to use their tactical abilities or face-down as wild cards with strength 2. Continue playing cards or strategically withdraw. Victory points are awarded based on the battle result, and the first player to reach 12 victory points wins the war."},
- {id:"dice-throne",name:"Dice Throne",players:[2,6],time:[20,40],difficulty:"Medium",tags:["Dice","Card Game","Fighting","Fantasy","Competitive"],cover:"",video:"https://www.youtube.com/embed/AhMjkitJTgY",rules:"Choose a unique hero with a personal board, deck, and five custom dice. On your turn, manage status effects and combat points, play cards, then roll your dice up to three times to activate an offensive ability. Your opponent gets a defensive roll and may mitigate the attack. Upgrade abilities and manipulate dice with cards. Reduce your opponents to zero health; the last hero standing wins."}
-];
+// My Game Shelf — site behavior
+// Your collection is stored in games.json. This file handles the interface.
+let games = [];
+
+async function loadGames(){
+ try {
+  const response = await fetch("games.json");
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  games = await response.json();
+  initializeApp();
+ } catch(error) {
+  console.error("Could not load games.json:", error);
+  const grid = document.getElementById("games");
+  if (grid) grid.innerHTML = '<div class="empty-state"><h2>Couldn’t load the collection</h2><p>Make sure <code>games.json</code> is in the same folder as <code>index.html</code>.</p></div>';
+ }
+}
 
 const $=s=>document.querySelector(s);
 const search=$("#search"), players=$("#players"), time=$("#time"), difficulty=$("#difficulty"), sort=$("#sort"), gamesEl=$("#games"), empty=$("#empty"), count=$("#count");

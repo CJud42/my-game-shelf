@@ -48,3 +48,18 @@ The example YouTube URLs are placeholders and should be replaced with the actual
 - Boss Monster: `assets/boss-monster.jpeg`
 - Air, Land & Sea: Critters at War: `assets/air-land-sea-critters.jpeg`
 - Dice Throne: still using the built-in placeholder until a box photo is added.
+
+
+## Version 4 — Editing your collection
+
+Your games now live in `games.json`. You can add or edit games there without changing `app.js`.
+
+### Add a game
+1. Put its box photo in `assets/`.
+2. Open `games.json`.
+3. Copy an existing game object.
+4. Change the values.
+5. Keep the JSON punctuation correct (double quotes, commas, brackets).
+6. Upload the changed `games.json` and new image to GitHub.
+
+The website automatically loads the collection from `games.json`.
