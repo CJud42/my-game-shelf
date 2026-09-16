@@ -7,7 +7,7 @@ async function loadGames(){
   const response = await fetch("games.json");
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   games = await response.json();
-  initializeApp();
+  render();
  } catch(error) {
   console.error("Could not load games.json:", error);
   const grid = document.getElementById("games");
