@@ -53,4 +53,4 @@ function openGame(id){
 function closeGame(){document.getElementById("modal")?.remove()}
 [search,players,time,difficulty,sort].forEach(x=>x.addEventListener("input",render));
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeGame()});
-loadgames();
+loadGames();
