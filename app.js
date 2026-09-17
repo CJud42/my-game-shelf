@@ -43,7 +43,7 @@ function openGame(id){
  modal.innerHTML=`<div class="dialog"><div class="dialog-top"><strong>GAME DETAILS</strong><button class="close" onclick="closeGame()">×</button></div>
  <div class="detail"><div class="detail-grid"><div><div class="detail-cover">${g.cover ? `<img src="${g.cover}" alt="${g.name}">` : `<div class="cover-placeholder">${g.name}</div>`}</div></div>
  <div><h2>${g.name}</h2><div class="tags">${g.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
- <div class="facts"><div class="fact"><small>Players</small><strong>${g.players[0]}–${g.players[1]}</strong></div><div class="fact"><small>Play time</small><strong>${g.time[0]}–${g.time[1]} min</strong></div><div class="fact"></div></div>
+ <div class="facts"><div class="fact"><small>Players</small><strong>${g.players[0]}–${g.players[1]}</strong></div><div class="fact"><small>Play time</small><strong>${g.time[0]}–${g.time[1]} min</strong></div></div>
  <h3>General rules</h3><p class="rules">${g.rules}</p></div></div>
  <h3>How to play</h3><div class="video"><iframe src="${g.video}" title="How to play ${g.name}" allowfullscreen loading="lazy"></iframe></div>
  </div></div>`;
