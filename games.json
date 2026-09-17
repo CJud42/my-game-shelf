@@ -64,8 +64,26 @@
       "Fantasy",
       "Competitive"
     ],
-    "cover": "",
+    "cover": "assets/dice-throne.jpeg",
     "video": "https://www.youtube.com/embed/AhMjkitJTgY",
     "rules": "Choose a unique hero with a personal board, deck, and five custom dice. On your turn, manage status effects and combat points, play cards, then roll your dice up to three times to activate an offensive ability. Your opponent gets a defensive roll and may mitigate the attack. Upgrade abilities and manipulate dice with cards. Reduce your opponents to zero health; the last hero standing wins."
+  },
+  {
+    "id": "radlands",
+    "name": "Radlands",
+    "players":[
+      2,
+      2
+    ],
+    "difficulty": "Medium",
+    "tags": [
+      "Card Game",
+      "Competitive",
+      "Two Player",
+      "Strategy"
+    ],
+    "cover": "assets/Radlands.jpeg",
+    "video":"https://www.youtube.com/watch?v=00HDPb-BrLA",
+    "rules": "Act as the leader of your post apocalyptic group of survivors in a tooth-and-nail fight to protect your well springs from a vicious rival tribe. Radlands is a competitive, dueling card game about identifying fiercely powerful card synergies."
   }
 ]
