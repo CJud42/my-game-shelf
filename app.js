@@ -32,7 +32,7 @@ function render(){
  gamesEl.innerHTML=list.map(g=>`<article class="card">
   <div class="cover">${g.cover ? `<img src="${g.cover}" alt="${g.name} box art" loading="lazy">` : `<div class="cover-placeholder">${g.name}</div>`}</div>
   <div class="card-body"><h3>${g.name}</h3>
-  <div class="meta"><span>👥 ${g.players[0]}–${g.players[1]}</span><span>⏱ ${g.time[0]}–${g.time[1]} min</span></div>
+  <div class="meta"><span>👥 ${g.players[0] === g.players[1] ? g.players[0] : `${g.players[0]}-${g.players[1]}`}</span><span>⏱ ${g.time[0]}–${g.time[1]} min</span></div>
   <div class="tags">${g.tags.slice(0,3).map(t=>`<span class="tag">${t}</span>`).join("")}</div>
   <button onclick="openGame('${g.id}')">View game →</button></div></article>`).join("");
  empty.hidden=!!list.length;
