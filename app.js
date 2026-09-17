@@ -23,6 +23,11 @@ function matches(g){
  && (!players.value || g.players[1]>=+players.value)
  && (!time.value || g.time[1]<=+time.value);
 }
+function playerText(players) {
+  return players[0] === players[1]
+    ? `${players[0]}`
+    : `${players[0]}-${players[1]}`;
+}
 function render(){
  let list=games.filter(matches);
  if(sort.value==="time") list.sort((a,b)=>a.time[0]-b.time[0]);
@@ -32,7 +37,7 @@ function render(){
  gamesEl.innerHTML=list.map(g=>`<article class="card">
   <div class="cover">${g.cover ? `<img src="${g.cover}" alt="${g.name} box art" loading="lazy">` : `<div class="cover-placeholder">${g.name}</div>`}</div>
   <div class="card-body"><h3>${g.name}</h3>
-  <div class="meta"><span>👥 ${g.players[0] === g.players[1] ? g.players[0] : `${g.players[0]}-${g.players[1]}`}</span><span>⏱ ${g.time[0]}–${g.time[1]} min</span></div>
+  <div class="meta"><span>👥 ${playerText(g.players)}</span><span>⏱ ${g.time[0]}–${g.time[1]} min</span></div>
   <div class="tags">${g.tags.slice(0,3).map(t=>`<span class="tag">${t}</span>`).join("")}</div>
   <button onclick="openGame('${g.id}')">View game →</button></div></article>`).join("");
  empty.hidden=!!list.length;
@@ -43,7 +48,7 @@ function openGame(id){
  modal.innerHTML=`<div class="dialog"><div class="dialog-top"><strong>GAME DETAILS</strong><button class="close" onclick="closeGame()">×</button></div>
  <div class="detail"><div class="detail-grid"><div><div class="detail-cover">${g.cover ? `<img src="${g.cover}" alt="${g.name}">` : `<div class="cover-placeholder">${g.name}</div>`}</div></div>
  <div><h2>${g.name}</h2><div class="tags">${g.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
- <div class="facts"><div class="fact"><small>Players</small><strong>${g.players[0]}–${g.players[1]}</strong></div><div class="fact"><small>Play time</small><strong>${g.time[0]}–${g.time[1]} min</strong></div></div>
+ <div class="facts"><div class="fact"><small>Players</small><strong>${playerText(g.players)}</strong></div><div class="fact"><small>Play time</small><strong>${g.time[0]}–${g.time[1]} min</strong></div></div>
  <h3>General rules</h3><p class="rules">${g.rules}</p></div></div>
  <h3>How to play</h3><div class="video"><iframe src="${g.video}" title="How to play ${g.name}" allowfullscreen loading="lazy"></iframe></div>
  </div></div>`;
