@@ -89,5 +89,153 @@
     "cover": "assets/Radlands.jpg",
     "video":"https://www.youtube.com/watch?v=00HDPb-BrLA",
     "rules": "Act as the leader of your post apocalyptic group of survivors in a tooth-and-nail fight to protect your well springs from a vicious rival tribe. Radlands is a competitive, dueling card game about identifying fiercely powerful card synergies."
-  }
+  },
+  {
+  "id": "unmatched",
+  "name": "Unmatched",
+  "players": [
+    2,
+    4
+  ],
+  "time": [
+    20,
+    40
+  ],
+  "tags": [
+    "Card Game",
+    "Competitive",
+    "Strategy",
+    "Fantasy",
+    "Fighting"
+  ],
+  "cover": "assets/unmatched.webp",
+  "video": "https://www.youtube.com/watch?v=FdzLJDl0qk8",
+  "rules": "Unmatched is a highly asymmetrical miniature fighting game for two or four players. Each hero is represented by a unique deck designed to evoke their style and legend. Tactical movement and no-luck combat resolution create a unique play experience that rewards expertise, but just when you've mastered one set, new heroes arrive to provide all new match-ups."
+},
+{
+  "id": "everdell",
+  "name": "Everdell",
+  "players": [
+    1,
+    4
+  ],
+  "time": [
+    40,
+    80
+  ],
+  "tags": [
+    "Card Game",
+    "City Building",
+    "Strategy",
+    "Fantasy"
+  ],
+  "cover": "assets/everdell.webp",
+  "video": "https://youtu.be/1b9zQz7COxs?si=ZMA_a69W-wu0cVMd",
+  "rules": "Within the charming valley of Everdell, beneath the boughs of towering trees, among meandering streams and mossy hollows, a civilization of forest critters is thriving and expanding. From Everfrost to Bellsong, many a year have come and gone, but the time has come for new territories to be settled and new cities established. You will be the leader of a group of critters intent on just such a task. There are buildings to construct, lively characters to meet, events to host—you have a busy year ahead of yourself. Will the sun shine brightest on your city before the winter moon rises?\n\nEverdell is a game of dynamic tableau building and worker placement.\n\nOn their turn a player can take one of three actions:\n\na) Place a Worker: Each player has a collection of Worker pieces. These are placed on the board locations, events, and on Destination cards. Workers perform various actions to further the development of a player's tableau: gathering resources, drawing cards, and taking other special actions.\n\nb) Play a Card: Each player is building and populating a city; a tableau of up to 15 Construction and Critter cards. There are five types of cards: Travelers, Production, Destination, Governance, and Prosperity. Cards generate resources (twigs, resin, pebbles, and berries), grant abilities, and ultimately score points. The interactions of the cards reveal numerous strategies and a near infinite variety of working cities.\n\nc) Prepare for the next Season: Workers are returned to the players supply and new workers are added. The game is played from Winter through to the onset of the following winter, at which point the player with the city with the most points wins."
+},
+{
+  "id": "camel up",
+  "name": "Camel Up",
+  "players": [
+    3,
+    8
+  ],
+  "time": [
+    30,
+    45
+  ],
+  "tags": [
+    "Family",
+    "Racing",
+    "Dice",
+    "Party"
+  ],
+  "cover": "assets/camel-up.webp",
+  "video": "https://youtu.be/ylpy5i7_w5s?si=BA64ix6KUVx-LlN_",
+  "rules": "In Camel Up, up to eight players bet on five racing camels, trying to suss out which ones will place first and second in a quick race around a pyramid. The earlier you place your bet, the more you can win — should you guess correctly, of course. Camels don't run neatly, however, sometimes landing on top of another one and being carried toward the finish line. Who's going to run when? That all depends on how the dice come out of the pyramid dice shaker, which releases one die at a time when players pause from their bets long enough to see who's actually moving!"
+},
+{
+  "id": "wingspan",
+  "name": "Wingspan",
+  "players": [
+    1,
+    5
+  ],
+  "time": [
+    40,
+    70
+  ],
+  "tags": [
+    "Family",
+    "Strategy",
+    "Card Game"
+  ],
+  "cover": "assets/wingspan.webp",
+  "video": "https://youtu.be/lgDgcLI2B0U?si=L00ZKRtfdDr1bKWD",
+  "rules": "Wingspan is a competitive, medium-weight, card-driven, engine-building board game from Stonemaier Games. It's designed by Elizabeth Hargrave and features 180 birds illustrated by Natalia Rojas and Ana Maria Martinez.\n\nYou are bird enthusiasts—researchers, bird watchers, ornithologists, and collectors—seeking to discover and attract the best birds to your network of wildlife preserves. Each bird extends a chain of powerful combinations in one of your habitats (actions). These habitats focus on several key aspects of growth:\n\nGain food tokens via custom dice in a birdfeeder dice tower\nLay eggs using egg miniatures in a variety of colors\nDraw from hundreds of unique bird cards and play them\n\nThe winner is the player with the most points after 4 rounds."
+},
+{
+  "id": "flamecraft",
+  "name": "Flamecraft",
+  "players": [
+    1,
+    5
+  ],
+  "time": [
+    60,
+    70
+  ],
+  "tags": [
+    "Family",
+    "Strategy",
+    "Card Game",
+    "Fantasy",
+    "City Building"
+  ],
+  "cover": "assets/flamecraft.webp",
+  "video": "https://youtu.be/whAeP0W5zY4?si=rDvIAu6-BUnhSGvt",
+  "rules": "In Flamecraft, 1-5 players take on the role of Flamekeepers, gathering items, placing dragons and casting enchantments to enhance the shops of the town. Dragons are specialized (bread, meat, iron, crystal, plant and potion) and the Flamekeepers know which shops are the best home for each. Visit a shop to gain items and a favor from one of the dragons there. Gathered items can be used to enchant a shop, gaining reputation and the favors of all the dragons in the shop. If you are fortunate enough to attract fancy dragons then you will have opportunities to secure even more reputation."
+},
+{
+  "id": "azul",
+  "name": "Azul",
+  "players": [
+    2,
+    4
+  ],
+  "time": [
+    30,
+    45
+  ],
+  "tags": [
+    "Family",
+    "Strategy",
+    "Competitive"
+  ],
+  "cover": "assets/azul.webp",
+  "video": "https://youtu.be/dXuucWGrFMQ?si=tcoef16rcT2BBwfc",
+  "rules": "In the game Azul, players take turns drafting colored tiles from suppliers to their player board. Later in the round, players score points based on how they've placed their tiles to decorate the palace. Extra points are scored for specific patterns and completing sets; wasted supplies harm the player's score. The player with the most points at the end of the game wins."
+},
+{
+  "id": "splendor",
+  "name": "Splendor",
+  "players": [
+    2,
+    4
+  ],
+  "time": [
+    20,
+    30
+  ],
+  "tags": [
+    "Family",
+    "Strategy",
+    "Competitive",
+    "Card Game",
+    "Economic"
+  ],
+  "cover": "assets/splendor.webp",
+  "video": "https://youtu.be/rue8-jvbc9I?si=2YrxgBAPrc8Q_ixk",
+  "rules": "Splendor is a game of chip-collecting and card development. Players are merchants of the Renaissance trying to buy gem mines, means of transportation, shops—all in order to acquire the most prestige points. If you're wealthy enough, you might even receive a visit from a noble at some point, which of course will further increase your prestige.\n\nOn your turn, you may (1) collect chips (gems), or (2) buy and build a card, or (3) reserve one card. If you collect chips, you take either three different kinds of chips or two chips of the same kind. If you buy a card, you pay its price in chips and add it to your playing area. To reserve a card—in order to make sure you get it, or, why not, your opponents don't get it—you place it in front of you face down for later building; this costs you a round, but you also get gold in the form of a joker chip, which you can use as any gem.\n\nAll of the cards you buy increase your wealth as they give you a permanent gem bonus for later buys; some of the cards also give you prestige points. In order to win the game, you must reach 15 prestige points before your opponents do."
+}
 ]
