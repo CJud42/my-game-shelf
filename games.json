@@ -237,5 +237,198 @@
   "cover": "assets/splendor.webp",
   "video": "https://youtu.be/rue8-jvbc9I?si=2YrxgBAPrc8Q_ixk",
   "rules": "Splendor is a game of chip-collecting and card development. Players are merchants of the Renaissance trying to buy gem mines, means of transportation, shops—all in order to acquire the most prestige points. If you're wealthy enough, you might even receive a visit from a noble at some point, which of course will further increase your prestige.\n\nOn your turn, you may (1) collect chips (gems), or (2) buy and build a card, or (3) reserve one card. If you collect chips, you take either three different kinds of chips or two chips of the same kind. If you buy a card, you pay its price in chips and add it to your playing area. To reserve a card—in order to make sure you get it, or, why not, your opponents don't get it—you place it in front of you face down for later building; this costs you a round, but you also get gold in the form of a joker chip, which you can use as any gem.\n\nAll of the cards you buy increase your wealth as they give you a permanent gem bonus for later buys; some of the cards also give you prestige points. In order to win the game, you must reach 15 prestige points before your opponents do."
+},
+{
+  "id": "sherlock-holmes",
+  "name": "Sherlock Holmes: Consulting Detective",
+  "players": [
+    1,
+    8
+  ],
+  "time": [
+    80,
+    90
+  ],
+  "tags": [
+    "Puzzle",
+    "Family",
+    "Cooperative",
+    "Mystery"
+  ],
+  "cover": "assets/sherlock-holmes.webp",
+  "video": "https://www.youtube.com/watch?v=CsCdwf4LVcs",
+  "rules": "Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures is a standalone expansion to Sherlock Holmes Consulting Detective with updated graphics that features ten more cases to be solved in Sherlock Holmes' Victorian-era London, England. A \"London Directory\", map, and newspaper archives are included with the cases.\n\nIncluded are six independent \"West End Adventures\" cases (redesigned and updated from the 1995 expansion), and a series of four new cases based on the Jack the Ripper murders.\n\nJack the Ripper Cases:\n\nMary Ann Nichols\nAnnie Chapman\nElizabeth Stride, Catherine Eddowes\nMary Jane Kelly\nWest End Adventures:\n\nThe Strange Case of Dr. Goldfire\nThe Murder of Sherlock Holmes\nA Case of Identity\nThe Death of a Transylvanian Count\nA Royal Huggermugger at the Savage Club\nA Simple Case of Murder"
+},
+{
+  "id": "horried-american",
+  "name": "Horrified: American Monsters",
+  "players": [
+    1,
+    5
+  ],
+  "time": [
+    40,
+    60
+  ],
+  "tags": [
+    "Horror",
+    "Strategy",
+    "Cooperative",
+    "Dice"
+  ],
+  "cover": "assets/horrified-american.webp",
+  "video": "https://www.youtube.com/watch?v=nTKiv-3OptM",
+  "rules": "In this co-operative game, you face off against classic American nightmarish beasts: Bigfoot, Mothman, the Jersey Devil, the Chupacabra, the Banshee of the Badlands, and the Ozark Howler. The more creatures in the game, the harder the challenge, with players needing to use their unique powers to figure out how to defeat each monster."
+},
+{
+  "id": "horried-greek",
+  "name": "Horrified: Greek Monsters",
+  "players": [
+    1,
+    5
+  ],
+  "time": [
+    40,
+    60
+  ],
+  "tags": [
+    "Horror",
+    "Strategy",
+    "Cooperative",
+    "Dice"
+  ],
+  "cover": "assets/horrified-greek.webp",
+  "video": "https://www.youtube.com/watch?v=8H6KKAM9VFE",
+  "rules": "Pandora's Box has been opened, and Greece's most notorious monsters have escaped.Horrified: Greek Monsters is a standalone game that features gameplay similar to 2019's Horrified. In this co-operative game, players become avatars of the Greek gods and must work together to re-capture these monsters.\n\nTo do that, they must first uncover the monsters' lairs. Medusa, Cerberus, Chimera, and Minotaur are hidden in locations that must be discovered: the Statue Garden, Underworld Door, Chimera's Cave, and Labyrinth. Similar to the myths that inspired the game, uncovering the lairs comes with a cost: Players must discard three color items before the lair token can be flipped over to reveal which monster's hideout they've discovered.\n\nHorrified: Greek Monsters includes six monsters, each with unique abilities, and the more monsters in the game, the harder the challenge, with players needing to use their unique powers to figure out how to defeat each monster."
+},
+{
+  "id": "the-chameleon",
+  "name": "The Chameleon",
+  "players": [
+    3,
+    8
+  ],
+  "time": [
+    15,
+    20
+  ],
+  "tags": [
+    "Family",
+    "Card Game",
+    "Social Deduction",
+    "Party"
+  ],
+  "cover": "assets/the-chameleon.webp",
+  "video": "https://www.youtube.com/watch?v=Tgn2W4KIanY",
+  "rules": "A bluffing deduction game for everyone.\n\nEach round involves two missions, depending on whether you’re the Chameleon or not.\n\nMission 1: You are the Chameleon. No one knows your identity except you. Your mission is to blend in, not get caught and to work out the Secret Word.\n\nMission 2: You are not the Chameleon. Try to work out who the Chameleon is without giving away the Secret Word.\n\nAt the beginning of the round each player receives a card that tells them if they are the Chameleon or hunting the Chameleon. Two dice are rolled and this gives everyone (except the Chameleon) the coordinates to a specific word on a Topic Card – this is the Secret Word for the round. Each Topic Card features 16 related words (e.g. countries, books, food, etc.)\n\nEach player must now say a word relating to the Secret Word. The Chameleon can only make an educated guess based on the 16 words in front of them."
+},
+{
+  "id": "king-of-tokyo",
+  "name": "King of Tokyo",
+  "players": [
+    2,
+    6
+  ],
+  "time": [
+    20,
+    30
+  ],
+  "tags": [
+    "Family",
+    "Dice",
+    "Fighting",
+    "Party",
+    "Competitive"
+  ],
+  "cover": "assets/king-of-tokyo.webp",
+  "video": "https://www.youtube.com/watch?v=RWYGlPf6IzE",
+  "rules": "In King of Tokyo, you play mutant monsters, gigantic robots, and strange aliens—all of whom are destroying Tokyo and whacking each other in order to become the one and only King of Tokyo.\n\nAt the start of each turn, you roll six dice, which show the following six symbols: 1, 2, or 3 Victory Points, Energy, Heal, and Attack. Over three successive throws, choose whether to keep or discard each die in order to win victory points, gain energy, restore health, or attack other players into understanding that Tokyo is YOUR territory.\n\nThe fiercest player will occupy Tokyo, and earn extra victory points, but that player can't heal and must face all the other monsters alone!\n\nTop this off with special cards purchased with energy that have a permanent or temporary effect, such as the growing of a second head which grants you an additional die, body armor, nova death ray, and more.... and it's one of the most explosive games of the year!\n\nIn order to win the game, one must either destroy Tokyo by accumulating 20 victory points, or be the only surviving monster once the fighting has ended.\n\n"
+},
+{
+  "id": "catan",
+  "name": "Catan",
+  "players": [
+    3,
+    4
+  ],
+  "time": [
+    60,
+    120
+  ],
+  "tags": [
+    "Family",
+    "Dice",
+    "Strategy",
+    "Economic",
+    "Competitive",
+    "Negotiation"
+  ],
+  "cover": "assets/catan.webp",
+  "video": "https://www.youtube.com/watch?v=8Yj0Y3GKE40",
+  "rules": "In CATAN (formerly The Settlers of Catan), players try to be the dominant force on the island of Catan by building settlements, cities and roads. On each turn dice are rolled to determine which resources the island produces. Players build structures by 'spending' resources (sheep, wheat, wood, brick and ore) which are represented by the relevant resource cards; each land type, with the exception of the unproductive desert, produces a specific resource: hills produce brick, forests produce wood, mountains produce ore, fields produce wheat, and pastures produce sheep.\n\nSet-up includes randomly placing large hexagonal tiles (each depicting one of the five resource-producing terrain types--or the desert) in a honeycomb shape and surrounding them with water tiles, some of which contain ports of exchange. A number disk, the value of which will correspond to the roll of two 6-sided dice, are placed on each terrain tile. Each player is given two settlements (think: houses) and roads (sticks) which are placed on intersections and borders of the terrain tiles. Players collect a hand of resource cards based on which terrain tiles their last-placed settlement is adjacent to. A robber pawn is placed on the desert tile.\n\nA turn consists of rolling the dice, collecting resource cards based on this dice roll and the position of settlements (or upgraded cities—think: hotels), turning in resource cards (if possible and desired) for improvements, trading cards at a port, possibly playing a development card, or trading resource cards with other players. If the dice roll is a 7, the active player moves the robber to a new terrain tile and steals a resource card from another player who has a settlement adjacent to that tile.\n\nPoints are accumulated by building settlements and cities, having the longest road or the largest army (from some of the development cards), and gathering certain development cards that simply award victory points. When a player has gathered 10 points (some of which may be held in secret), s/he announces this and claims the win."
+},
+{
+  "id": "ticket-to-ride",
+  "name": "Ticket to Ride",
+  "players": [
+    2,
+    5
+  ],
+  "time": [
+    30,
+    60
+  ],
+  "tags": [
+    "Family",
+    "Strategy",
+    "Competitive"
+  ],
+  "cover": "assets/ticket-to-ride.webp",
+  "video": "https://www.youtube.com/watch?v=4JhFhyvGdik",
+  "rules": "With elegantly simple gameplay, Ticket to Ride can be learned in under 15 minutes. Players collect cards of various types of train cars they then use to claim railway routes in North America. The longer the routes, the more points they earn. Additional points come to those who fulfill Destination Tickets – goal cards that connect distant cities; and to the player who builds the longest continuous route.\n\n\"The rules are simple enough to write on a train ticket – each turn you either draw more cards, claim a route, or get additional Destination Tickets,\" says Ticket to Ride author, Alan R. Moon. \"The tension comes from being forced to balance greed – adding more cards to your hand, and fear – losing a critical route to a competitor.\"\n\nTicket to Ride continues in the tradition of Days of Wonder's big format board games featuring high-quality illustrations and components including: an oversize board map of North America, 225 custom-molded train cars, 144 illustrated cards, and wooden scoring markers."
+},
+{
+  "id": "small-world",
+  "name": "Small World",
+  "players": [
+    2,
+    5
+  ],
+  "time": [
+    40,
+    80
+  ],
+  "tags": [
+    "Family",
+    "Strategy",
+    "Competitive",
+    "Fighting",
+    "Fantasy"
+  ],
+  "cover": "assets/small-world.webp",
+  "video": "https://www.youtube.com/watch?v=BMxt7OVj_lI",
+  "rules": "In Small World, players vie for conquest and control of a world that is simply too small to accommodate them all.\n\nDesigned by Philippe Keyaerts as a fantasy follow-up to his award-winning Vinci, Small World is inhabited by a zany cast of characters such as dwarves, wizards, amazons, giants, orcs, and even humans, who use their troops to occupy territory and conquer adjacent lands in order to push the other races off the face of the earth.\n\nPicking the right combination from the 14 different fantasy races and 20 unique special powers, players rush to expand their empires - often at the expense of weaker neighbors. Yet they must also know when to push their own over-extended civilization into decline and ride a new one to victory!\n\nOn each turn, you either use the multiple tiles of your chosen race (type of creatures) to occupy adjacent (normally) territories - possibly defeating weaker enemy races along the way, or you give up on your race letting it go \"into decline\". A race in decline is designated by flipping the tiles over to their black-and-white side.\n\nAt the end of your turn, you score one point (coin) for each territory your races occupy. You may have one active race and one race in decline on the board at the same time. Your occupation total can vary depending on the special abilities of your race and the territories they occupy. After the final round, the player with the most coins wins."
+},
+{
+  "id": "7-wonders",
+  "name": "7 Wonders",
+  "players": [
+    2,
+    7
+  ],
+  "time": [
+    20,
+    30
+  ],
+  "tags": [
+    "Family",
+    "Strategy",
+    "Competitive",
+    "Card Game",
+    "Economic"
+  ],
+  "cover": "assets/7-wonders.webp",
+  "video": "https://www.youtube.com/watch?v=QVLUu7qkLWI",
+  "rules": "You are the leader of one of the 7 great cities of the Ancient World. Gather resources, develop commercial routes, and affirm your military supremacy. Build your city and erect an architectural wonder which will transcend future times.\n\n7 Wonders lasts three ages. In each age, players receive seven cards from a particular deck, choose one of those cards, then pass the remainder to an adjacent player. Players reveal their cards simultaneously, paying resources if needed or collecting resources or interacting with other players in various ways. (Players have individual boards with special powers on which to organize their cards, and the boards are double-sided). Each player then chooses another card from the deck they were passed, and the process repeats until players have six cards in play from that age. After three ages, the game ends.\n\nIn essence, 7 Wonders is a card development game. Some cards have immediate effects, while others provide bonuses or upgrades later in the game. Some cards provide discounts on future purchases. Some provide military strength to overpower your neighbors and others give nothing but victory points. Each card is played immediately after being drafted, so you'll know which cards your neighbor is receiving and how her choices might affect what you've already built up. Cards are passed left-right-left over the three ages, so you need to keep an eye on the neighbors in both directions."
 }
 ]
